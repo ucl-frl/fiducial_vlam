@@ -9,6 +9,7 @@ WORKDIR /work/ros2_ws/src
 
 RUN git clone https://github.com/ucl-frl/fiducial_vlam.git
 RUN git clone https://github.com/ucl-frl/tello_ros.git
+RUN git clone https://github.com/ptrmu/ros2_shared.git
 
 WORKDIR /work/ros2_ws
 
