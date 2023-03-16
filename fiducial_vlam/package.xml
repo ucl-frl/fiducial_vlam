@@ -27,6 +27,11 @@
   <depend>tf2_msgs</depend>
   <depend>visualization_msgs</depend>
   <depend>yaml_cpp_vendor</depend>
+  
+  <test_depend>ament_lint_auto</test_depend>
+
+  <!-- this recursively depends on a set of common linters -->
+  <test_depend>ament_lint_common</test_depend>
 
   <export>
     <build_type>ament_cmake</build_type>
