@@ -20,4 +20,4 @@ RUN rosdep install -y --from-paths . --ignore-src
 
 RUN /bin/bash -c "source /opt/ros/foxy/setup.bash && colcon build"
 RUN /bin/bash -c "source /opt/ros/foxy/setup.bash && colcon test --packages-select fiducial_vlam"
-RUN /bin/bash -c "source /opt/ros/foxy/setup.bash && colcon test-result"
+RUN /bin/bash -c "source /opt/ros/foxy/setup.bash && colcon test-result --verbose"
